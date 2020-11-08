@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 122%;
+  background-color: #004050;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap,
+.wrap2 {
+  width: 830px;
+  height: auto;
+  margin: 70px 100px;
+  float: left;
+}
+
+.wrap2 {
+  width: 410px !important;
+}
+
+div[class^="metro"] {
+  float: left;
+  margin: 0 10px 10px 0;
+  height: 95px;
+  border: solid 2px transparent;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  -webkit-user-drag: element;
+}
+
+div[class^="metro"]:hover {
+  border: 2px solid mintcream;
+}
+
+div[class^="metro"]:active {
+  transform: scale(0.98, 0.98);
+}
+
+.metro-big {
+  width: 200px;
+}
+
+.metro-small {
+  width: 95px;
+}
+
+.last {
+  margin-right: 0 !important;
+}
+
+.start {
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 50px;
+  font: normal 50px "Yanone Kaffeesatz", sans-serif;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.start:hover {
+  text-shadow: 0 0 4px white;
+}
+
+.space {
+  margin-bottom: 110px;
+}
+
+.label {
+  font: 500 12px sans-serif;
+  position: absolute;
+  color: white;
+  user-select: none;
+  left: 10px;
+}
+
+.bottom {
+  bottom: 5px;
+}
+
+.top {
+  top: 5px;
+}
+
+.chat {
+  background: #df0024;
+}
+
+.calendar {
+  background: #00a9ec;
+}
+
+.store {
+  background: #ff9000;
+}
+
+.ie {
+  background: #00abdc;
+}
+
+.people {
+  background: #0e5d30;
+}
+
+.video {
+  background: #8b0189;
+}
+
+.chrome {
+  background: #ce4e4e;
+}
+
+.music {
+  background: #5f5f5f;
+  animation: flip 6s linear infinite;
+  transform: rotateX(0deg);
+}
+
+.game {
+  background: #00ff00;
+}
+
+.twitter {
+  background: #19bfe5;
+}
+
+.gp {
+  background: #d64136;
+}
+
+.fb {
+  background: #3b5998;
+}
+
+.cnn {
+  background: #fe0000;
+}
+
+.ps {
+  background: #0c5fa1;
+}
+
+.bt {
+  background: #2546e9;
+}
+
+.cc {
+  background: #d20808;
+}
+
+.wmp {
+  background: #f68935;
+}
+
+.tube {
+  background: #c8312b;
+}
+
+.skype {
+  background: #10bef2;
+}
+
+div[class^="icon"] {
+  width: 45px;
+  height: 45px;
+  margin: 20px auto;
+  background-size: 45px 45px;
+}
+
+.icon-calendar {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/256/Apps-Calendar-Metro-icon.png");
+}
+
+.icon-chat {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/256/Other-Mail-alt-Metro-icon.png");
+}
+.icon-store {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/256/Web-Microsoft-Store-Metro-icon.png");
+}
+.icon-ie {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/256/Web-Browsers-Internet-Explorer-10-Metro-icon.png");
+}
+.icon-people {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/128/Folders-OS-User-No-Frame-Metro-icon.png");
+}
+.icon-video {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/128/Folders-OS-My-Videos-Metro-icon.png");
+}
+.icon-chrome {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/256/Web-Browsers-Google-Chrome-Metro-icon.png");
+}
+.icon-music {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/256/Apps-Google-Music-Metro-icon.png");
+}
+.icon-games {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/128/Folders-OS-Games-alt-Metro-icon.png");
+}
+.icon-twitter {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/128/Web-Twitter-alt-2-Metro-icon.png");
+}
+.icon-gp {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/128/Web-Google-plus-Metro-icon.png");
+}
+.icon-fb {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/128/Web-Facebook-alt-1-Metro-icon.png");
+}
+.icon-cnn {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/128/Web-CNN-Metro-icon.png");
+}
+.icon-ps {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/128/Apps-Adobe-Photoshop-Metro-icon.png");
+}
+.icon-bt {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/128/Apps-Bluetooth-Metro-icon.png");
+}
+.icon-cc {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/128/Apps-CCleaner-Metro-icon.png");
+}
+.icon-wmp {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/256/Apps-Windows-Media-Player-Metro-icon.png");
+}
+.icon-tube {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/256/Web-YouTube-alt-1-Metro-icon.png");
+}
+.icon-skype {
+  background: url("http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/128/Apps-Skype-Metro-icon.png");
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: #007491;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #002f3b;
+  cursor: pointer;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+  15% {
+    transform: rotateX(360deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
