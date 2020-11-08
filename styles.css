@@ -18,12 +18,6 @@ html {
   background-color: #004050;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .wrap,
 .wrap2 {
   width: 830px;
@@ -270,4 +264,19 @@ div[class^="icon"] {
   100% {
     transform: rotateX(360deg);
   }
+}
+
+.photo img {
+  top: -4px;
+  left: -4px;
+  position: absolute;
+  opacity: 0;
+  animation: fade 8s ease-in-out infinite 8s;
+  z-index: 0;
+  border: solid 2px transparent;
+  transition: all 0.3s ease;
+}
+
+.photo img:hover {
+  border: 2px solid mintcream;
 }
