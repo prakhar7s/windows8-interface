@@ -1,15 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;400&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-
-*:before,
-*:after {
+*, *::before, *::after {
+ margin: 0;
   box-sizing: border-box;
 }
 
